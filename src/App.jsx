@@ -17,9 +17,9 @@ function App() {
     <Header></Header>
 
     <Routes>
-      <Route path = '/' element={<MainHome />} />
-      <Route path = '/about' element={<About/>} />
-      <Route path = '/features' element={<Features/>} />
+      <Route path = '/SocialSphere/Home' element={<MainHome />} />
+      <Route path = '/SocialSphere/about' element={<About/>} />
+      <Route path = '/SocialSphere/features' element={<Features/>} />
 
     </Routes>
     </>
