@@ -1,0 +1,50 @@
+.app-container{
+  display: flex;
+}
+.content{
+  width : 100% ;
+}
+.sideBar{
+  min-height: 800px;
+}
+
+.post-card{
+  margin : 20px 50px ;
+  min-width : 30rem ; 
+  
+}
+
+.hashtag{
+  margin: 0px 3px ;
+}
+
+.create-post{
+  width: 80%; 
+  margin-left: 10% ;
+  margin-top: 50px;
+}
+
+.wel-mes{
+  margin: 100px 0 ;
+}
+
+.loading{
+  margin : 20% ; 
+}
+
+/* src/themes.css */
+:root {
+  --bg-color: white;
+  --text-color: black;
+}
+
+[data-theme='dark'] {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
