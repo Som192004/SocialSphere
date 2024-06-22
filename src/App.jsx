@@ -8,8 +8,6 @@ import Features from './components/Features'
 
 import { Route,  Routes } from 'react-router-dom';
 
-
-
 function App() {
 
   return ( <>
@@ -17,9 +15,9 @@ function App() {
     <Header></Header>
 
     <Routes>
-      <Route path = '/SocialSphere/Home' element={<MainHome />} />
-      <Route path = '/SocialSphere/about' element={<About/>} />
-      <Route path = '/SocialSphere/features' element={<Features/>} />
+      <Route path = '/Home' element={<MainHome />} />
+      <Route path = '/about' element={<About/>} />
+      <Route path = '/features' element={<Features/>} />
 
     </Routes>
     </>
