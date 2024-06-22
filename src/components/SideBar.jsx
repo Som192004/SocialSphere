@@ -18,7 +18,7 @@ const SideBar = ({selectedTab , setSelectedTab}) => {
         <li className="nav-item" onClick={() => {
           handleOnClick("Home") ; 
         }}>
-          <a href="#" className = {`nav-link text-white ${selectedTab === 'Home'&& "active" } `} aria-current="page">
+          <a  className = {`nav-link text-white ${selectedTab === 'Home'&& "active" } `} aria-current="page">
             <svg className="bi pe-none me-2" width="16" height="16"><use xlink:Href="#home"></use></svg>
             Home
           </a>
@@ -27,7 +27,7 @@ const SideBar = ({selectedTab , setSelectedTab}) => {
         <li onClick={() => {
           handleOnClick("CreatePost") ; 
         }}>
-          <a href="#" className = {`nav-link text-white ${selectedTab === 'CreatePost'&& "active" } `} >
+          <a  className = {`nav-link text-white ${selectedTab === 'CreatePost'&& "active" } `} >
             <svg className="bi pe-none me-2" width="16" height="16"><use xlink:Href="#speedometer2"></use></svg>
             Create Post
           </a>
