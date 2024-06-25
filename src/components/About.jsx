@@ -7,21 +7,21 @@ const About = () => {
     <div class={styles.aboutme}>
         <div class={styles.sectiontitle}>Introduction</div>
         <div class={styles.sectioncontent}>
-            <p>My name is Soham. I am currently an Engineering student , studying in the College named Pune Institute of Computer Technology , Pune .</p>
+            <p>My name is Soham. I am currently an Engineering student , studying at the Pune Institute of Computer Technology , Pune .</p>
         </div>
     </div>
 
     <div class={styles.aboutme}>
         <div class={styles.sectiontitle}>Aspirations</div>
         <div class={styles.sectioncontent}>
-            <p>My goal is to solve the real world problems using my knowledge about the Technology</p>
+            <p>Creating applications, software, and systems that solve real-world problems.</p>
         </div>
     </div>
 
     <div class={styles.aboutme}>
         <div class={styles.sectiontitle}>Education and Skills</div>
         <div class={styles.sectioncontent}>
-            <p>I am in PreFinal Year and have good knowledge about the FullStack Web Development (MERN Stack ) </p>
+            <p>Currently I am in 3rd year and have good knowledge about the FullStack Web Development (MERN Stack ) </p>
         </div>
     </div>
 
