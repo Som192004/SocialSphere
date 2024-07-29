@@ -1,0 +1,30 @@
+/* SplashScreen.css */
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Background color for the splash screen */
+  }
+  
+  .splash-screen img {
+    width: 200px; /* Adjust size as needed */
+    animation: fadeIn 1s ease-out; /* Example animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .fullscreen-img {
+    width: 100%;   /* 100% of viewport width */
+    height: auto;
+    /* height: 100vh;  100% of viewport height */
+    /* object-fit: cover; Ensures the image covers the entire space without stretching */
+  }
+  
