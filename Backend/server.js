@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(cors());
 
 
-
 // Connection with the MongoDB
 mongoose.connect(db_config.DB_URL) ;
 
