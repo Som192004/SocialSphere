@@ -49,7 +49,7 @@ cd Frontend
 npm run dev
 ```
 
-3.Register yourself to the website and then login yourself
+3.Register yourself on the website and then login yourself
 
 4.Now You can see the different posts as well as you can create your own posts 
 
